@@ -1,0 +1,12 @@
+#flags {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+#flags li {
+    float: left;
+}
+#flags li:first-child {
+    margin-right: 10px;
+}
