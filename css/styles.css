@@ -1,10 +1,21 @@
+@import './partials/_forms.css';
 @import './partials/_header.css';
 @import './partials/_search.css';
 @import './partials/_top-nav.css';
-@import './partials/_our_products.css';
+@import './partials/_our-services.css';
 @import './partials/_our_products.css';
 @import './partials/_services.css';
+@import './partials/_footer.css';
+@import './partials/_theme.css';
 
+.container-full {
+    width: 100%;
+}
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1240px;
+    }
+}
 .row {
     display: -ms-flexbox;
     display: flex;

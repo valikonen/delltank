@@ -5,21 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-full bg-1">
     <header id="top-header">
       <img src="images/icon.png" alt="delltank logo" class="pull-left">
       <nav>
         <ul id="top-nav">
-          <li><a href="/#">Home</a></li>
+          <li><a href="/#" class="active">Home</a></li>
           <li><a href="/#">Services</a></li>
           <li><a href="/#">Products</a></li>
           <li><a href="/#">Fleet</a></li>
@@ -31,7 +28,7 @@
         </ul>
       </nav>
 
-      <input type="search" name="" id="top=search">
+      <input type="search" name="" id="top-search" placeholder="search...">
 
       <ul id="flags">
         <li><img src="images/nl-flag.png" alt="nederlands flag" /></li>
@@ -74,7 +71,7 @@
           <h3>We build all kind of containers</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </hgroup>
-        <button class="full-color pull-right">View All Products</button>
+        <button class="full-colored pull-right">View All Products</button>
       </section>
 
       <div class="row">
@@ -150,6 +147,56 @@
         <div class="col-md-6"></div>
       </div>
     </div>
+
+    <div id="footer-boxes">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>Business Hours</h3>
+          <p>Our support Hotline is available 8 hours a day</p>
+          <p>Monday-Friday: <strong>9am to 5pm</strong> <br> Weekend <strong>Closed</strong></p>
+          <button class="full-colored">Support is Online</button>
+        </div>
+        <div class="col-md-3">
+          <h3>Our Office</h3>
+          <h4>Nedetlands</h4>
+          <p>Industries B.V. <br> Weg en Land 42H <br> 2661 KR Bergschenhoek</p>
+          <img src="images/icon.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-full">
+    <footer>
+      <div id="footer" class="container">
+        <nav>
+          <ul id="bottom-nav">
+            <li><a href="/#">Home</a></li>
+            <li><a href="/#">Services</a></li>
+            <li><a href="/#">Products</a></li>
+            <li><a href="/#">Fleet</a></li>
+            <li><a href="/#">Tank Configurator</a></li>
+            <li><a href="/#">Trading</a></li>
+            <li><a href="/#">Transport</a></li>
+            <li><a href="/#">Our Team</a></li>
+            <li><a href="/#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <ul id="socil-icons-bottom">
+          <li><a href="#"><img src="images/icon.png" alt=""></a></li>
+          <li><a href="#"><img src="images/icon.png" alt=""></a></li>
+          <li><a href="#"><img src="images/icon.png" alt=""></a></li>
+          <li><a href="#"><img src="images/icon.png" alt=""></a></li>
+        </ul>
+      </div>
+
+      <div id="copyright" class="container">
+        <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+        <div id="jump-to-top">up</div>
+      </div>
+    </footer>
+    
   </div>
 
 </body>

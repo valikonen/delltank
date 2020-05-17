@@ -1,0 +1,9 @@
+.full-colored {
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 8px 25px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}

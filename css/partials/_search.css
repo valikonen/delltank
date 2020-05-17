@@ -10,3 +10,10 @@
 #flags li:first-child {
     margin-right: 10px;
 }
+#top-search {
+    background: #38393d;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 30px;
+}
