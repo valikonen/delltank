@@ -3,6 +3,9 @@
     font-weight: 100;
     padding: 50px 0;
 }
+#our-services header {
+    margin-bottom: 40px;
+}
 #our-services header h1 {
     font-size: 60px;
     font-weight: 100;

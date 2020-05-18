@@ -1,3 +1,57 @@
+#footer-boxes {
+    padding: 50px 0;
+    font-family: 'Roboto';
+}
+#footer-boxes h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+#footer-boxes h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+#footer-boxes p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+#footer-boxes .map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+#footer-boxes .map img {
+    margin-bottom: 20px;
+}
+.map ul {
+    margin: 0;
+    padding: 0 6px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #d0cacd;
+}
+.map a {
+    padding: 11px 10px
+}
+#products-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#products-menu li {
+    margin-bottom: 10px;
+}
+#products-menu a {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300; 
+}
+
+
+
 #footer {
     display: flex;
     flex-direction: row;

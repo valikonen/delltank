@@ -16,7 +16,12 @@ li a.active {
 #top-nav a,
 #our-services,
 #our-products,
-.card .btn-border {
+#services,
+#footer-boxes,
+.card .btn-border,
+.service-box h3 a,
+.map a,
+#products-menu a {
     color: #d0cacd;
 }
 #top-nav a.active {

@@ -1,4 +1,37 @@
+#services {
+    font-family: 'Roboto';
+    max-width: 1240px;
+    margin: 0 auto;
+}
+#services h1 {
+    font-size: 3.6rem;
+    font-weight: 100;
+    padding-top: 35px;
+    margin-bottom: 25px;
+}
 .service-box {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 30px;
+}
+.service-box img {
+    padding: 8px;
+    border-radius: 3px;
+    max-width: 40px;
+    margin-right: 20px;
+    background: rgb(149,85,255); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(149,85,255,1) 0%, rgba(98,175,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(149,85,255,1) 0%,rgba(98,175,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(149,85,255,1) 0%,rgba(98,175,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9555ff', endColorstr='#62afff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.service-box h3 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 0.91;
+}
+.service-box p {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Roboto';
 }
