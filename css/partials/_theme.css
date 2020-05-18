@@ -10,10 +10,22 @@ li a.active {
 .bg-1 {
     background: #1f2125;
 }
-#top-nav a {
+.bg-2 {
+    background: #050507;
+}
+#top-nav a,
+#our-services,
+#our-products,
+.card .btn-border {
     color: #d0cacd;
-    font-size: 14px;
 }
 #top-nav a.active {
     color: white;
+}
+.btn-border {
+    border: 1px solid #d0cacd; 
+ }
+ .card {
+    background: #0f0f11;
+    border: 1px solid #1f2125;
 }
