@@ -1,6 +1,7 @@
 #our-products {
     font-family: 'Roboto';
     padding: 50px 0;
+    background: url('../../images/dots_pattern.png') no-repeat center 5%;
 }
 #our-products section {
     display: flex;
@@ -37,13 +38,13 @@
     background: #1f2125;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 0 15px #333;
-    border: 1px solid #0f0f11;
+    border: 1px solid #35383d;
 }
 .card .btn-border {
     padding: 5px 12px;
     text-transform: uppercase;
     font-size: 11px;
-    font-weight: 100;
+    font-weight: 300;
     float: right;
     border-image-slice: 1;
     transition: all 0.2s ease-in-out;
@@ -53,6 +54,12 @@
     color: rgba(149,85,255,1);
     border-image-source: linear-gradient(to left, rgba(98,175,255,1), rgba(149,85,255,1));
 }
-.card .btn-border:hover span {
+.card .btn-border i {
+    padding-left: 4px;
+    font-size: 15px;
+    margin-left: 4px;
+    vertical-align: text-bottom;
+}
+.card .btn-border:hover i {
     color: rgba(98,175,255,1)
 }

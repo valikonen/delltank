@@ -5,4 +5,13 @@
     align-items: center;
     max-width: 1500px;
     margin: 0 auto;
+    background: url('../../images/header_bg.jpg') no-repeat 93% bottom;
+    padding: 8px 0;
+}
+.header-container {
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 2;
+    
 }

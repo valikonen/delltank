@@ -7,11 +7,15 @@ li a.active {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9555ff', endColorstr='#62afff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     color: white;
 }
+
 .bg-1 {
     background: #1f2125;
 }
 .bg-2 {
     background: #050507;
+}
+.bg-3 {
+    background: #131314;
 }
 #top-nav a,
 #our-services,
